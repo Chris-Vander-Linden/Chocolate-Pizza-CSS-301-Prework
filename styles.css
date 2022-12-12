@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 715px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+#recipe {
+  position: relative;
+}
+
+#recipe > ul {
+  position: absolute;
+  top: 7px;
+
+  width: 50%;
+
+  font-size: 21px;
+
+  list-style: square;
+}
+
+#recipe > ul:nth-of-type(1) {
+  left: 25px;
+}
+
+#recipe > ul:nth-of-type(2) {
+  right: 25px;
+}
+
+footer {
+  border-top: 1px solid gray;
+  text-align: center;
+}
