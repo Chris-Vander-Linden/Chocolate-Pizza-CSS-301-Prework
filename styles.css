@@ -101,28 +101,47 @@ main p {
 /* Recipe Section End */
 
 /* Author Section Start */
-
-#author,
-#author img,
-#author p,
-#author button {
-  border: 1px solid red;
+#author {
+  margin: 20px 0px;
+  position: relative;
 }
 
-#author img {
-  float: left;
+#author * {
+  display: inline-block;
+}
+
+#author div {
+  width: 500px;
+  margin-left: 10px;
+  position: absolute;
+  top: 0px;
 }
 
 #author p {
-  margin: 0;
-  width: calc(100% - 100px);
   text-indent: 0;
+
+  padding: 0;
+  margin: 0;
+}
+
+#author h3 {
+  margin: 0 0 5px 0;
 }
 
 #author button {
-  background-color: orange;
-}
+  background-color: #cc4b2e;
+  color: #fff;
+  border: none;
 
+  height: 60px;
+  font-size: 17px;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  padding: 0px 10px;
+}
 /* Author Section End */
 
 footer {
