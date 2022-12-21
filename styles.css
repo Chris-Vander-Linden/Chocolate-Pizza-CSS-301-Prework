@@ -10,7 +10,7 @@ body {
   padding: 30px 0;
 }
 
-img {
+img#choco-pizza, #recipe img {
   width: 100%;
 }
 
