@@ -10,7 +10,8 @@ body {
   padding: 30px 0;
 }
 
-img#choco-pizza, #recipe img {
+img#choco-pizza,
+#recipe img {
   width: 100%;
 }
 
@@ -70,8 +71,6 @@ main p {
 }
 /* Main Section Header End */
 
-
-
 /* Recipe Section Start */
 #recipe {
   position: relative;
@@ -100,6 +99,31 @@ main p {
   text-decoration: line-through;
 }
 /* Recipe Section End */
+
+/* Author Section Start */
+
+#author,
+#author img,
+#author p,
+#author button {
+  border: 1px solid red;
+}
+
+#author img {
+  float: left;
+}
+
+#author p {
+  margin: 0;
+  width: calc(100% - 100px);
+  text-indent: 0;
+}
+
+#author button {
+  background-color: orange;
+}
+
+/* Author Section End */
 
 footer {
   border-top: 5px solid gray;
