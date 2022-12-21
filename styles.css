@@ -146,6 +146,22 @@ main p {
 /* Author Section End */
 
 footer {
+  position: relative;
+
+  margin-top: 50px;
+  padding-top: 35px;
   border-top: 1px solid gray;
   text-align: center;
+}
+
+footer img {
+  position: absolute;
+  top: -17px;
+
+  padding: 0px 8px;
+  background-color: #fff;
+}
+
+footer p {
+  margin: 0;
 }
