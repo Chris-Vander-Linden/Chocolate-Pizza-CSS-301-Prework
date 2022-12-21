@@ -65,12 +65,12 @@ p {
 /* Header Section End */
 
 /* Main Section Header Start */
-
-/* Main Section Header End */
-
 main p {
   text-indent: 30px;
 }
+/* Main Section Header End */
+
+
 
 /* Recipe Section Start */
 #recipe {
@@ -95,7 +95,6 @@ main p {
 #recipe > ul:nth-of-type(2) {
   right: 25px;
 }
-/* Recipe Section End */
 
 .cross-out {
   text-decoration: line-through;
