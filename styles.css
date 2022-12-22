@@ -142,6 +142,8 @@ main p {
   right: 0px;
 
   padding: 0px 10px;
+
+  cursor: pointer;
 }
 /* Author Section End */
 
