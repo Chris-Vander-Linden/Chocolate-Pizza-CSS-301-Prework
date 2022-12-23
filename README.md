@@ -20,3 +20,5 @@ Make regular Git commits with appropriately descriptive commit messages while yo
 When finished, be sure to push your final code to GitHub and merge your branch into main.
 Deploy your page on GitHub Pages via the options in the repository “Settings” tab.
 Submit the links to your repository AND your deployed page in the corresponding Canvas assignment.
+
+
