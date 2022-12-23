@@ -19,6 +19,7 @@ img#choco-pizza,
 /* Gradient container used above and below main content */
 .gradient-container {
   height: 10px;
+  margin: 30px 0px 55px 0px;
   background-image: repeating-linear-gradient(
     45deg,
     transparent 0 2px,
@@ -26,8 +27,8 @@ img#choco-pizza,
   );
 }
 
-main .gradient-container {
-  margin: 25px 0px;
+.gradient-container.bottom {
+  margin: 40px 0px 0px 0px;
 }
 
 /* Keep user agent default margin */
@@ -103,7 +104,6 @@ h1 {
 }
 /* Title Section End */
 
-
 /* Main Section Header Start */
 main p {
   text-indent: 30px;
@@ -115,8 +115,6 @@ main p {
 /* Recipe Section Start */
 #recipe {
   position: relative;
-  padding-bottom: 20px;
-  border-bottom: 10px solid #e5e5e5;
 }
 
 #recipe > ul {
