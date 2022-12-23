@@ -16,12 +16,6 @@ img#choco-pizza,
   width: 100%;
 }
 
-main {
-  margin-top: 20px;
-  padding-top: 40px;
-  border-top: 4px solid gray;
-}
-
 /* Keep user agent default margin */
 p {
   margin: 1em 0;
@@ -66,30 +60,34 @@ p {
 }
 /* Header Section End */
 
-
 /* Title Section Start */
-  h1{
-      font-family: 'Arial', sans-serif;
-      display: inline-block;
-      transform: scale(1, 1.5);
-      position: relative;
-      bottom: 3px;
-  }
+h1 {
+  font-family: "Arial", sans-serif;
+  display: inline-block;
+  transform: scale(1, 1.5);
+  position: relative;
+  bottom: 3px;
+}
 
-  #main-sub-title{
-    font-size: 13px;
-    margin-bottom: 25px;
-  }
+#main-sub-title {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
 
-  #print{
-    float: right;
-    opacity: .8;
-  }
+#print {
+  float: right;
+  opacity: 0.8;
+}
 
 /* Title Section End */
 
-
 /* Main Section Header Start */
+main {
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 10px solid #e5e5e5;
+}
+
 main p {
   text-indent: 30px;
 }
@@ -98,6 +96,8 @@ main p {
 /* Recipe Section Start */
 #recipe {
   position: relative;
+  padding-bottom: 20px;
+  border-bottom: 10px solid #e5e5e5;
 }
 
 #recipe > ul {
@@ -174,7 +174,7 @@ footer {
 
   margin-top: 50px;
   padding-top: 35px;
-  border-top: 1px solid gray;
+  border-top: 1px solid #c7c7c7;
   text-align: center;
 }
 
@@ -188,4 +188,6 @@ footer img {
 
 footer p {
   margin: 0;
+  opacity: .5;
+  font-size: 14px;
 }
